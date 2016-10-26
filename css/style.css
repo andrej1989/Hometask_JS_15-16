@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.search{
+	display: table;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+.search__text{
+	width: 500px;
+	height: 30px;
+	font-size: 16px;
+	box-sizing: border-box;
+	border-color: #eee;
+	border-width: 1px;
+	border-radius: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.search__button{
+	height: 30px;
+	vertical-align: top;
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	border: 0;
+	border-radius: 3px;
+	background-color: #eee;
+}
+
+.result{
+	padding: 20px;
+	display: table;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.result__item{
+	margin-bottom: 30px;
+}
+
+.result__link{
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+}
+
+.result__contant{
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
